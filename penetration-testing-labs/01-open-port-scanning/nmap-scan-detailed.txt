@@ -1,0 +1,7 @@
+# Nmap Detailed / Aggressive Scan (raw)
+
+> Paste the raw output of:
+>
+>     nmap -A 192.168.56.102
+>
+> Expect OS guesses, traceroute, script results, and additional fingerprints.

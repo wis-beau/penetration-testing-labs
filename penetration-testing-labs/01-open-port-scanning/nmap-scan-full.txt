@@ -1,0 +1,10 @@
+# Nmap Full Port + Service Scan (raw)
+
+> Paste the raw output of:
+>
+>     nmap -sV -p- 192.168.56.102
+>
+> Example headers you should see:
+> - `Host is up` line with latency
+> - A list of `open` ports with service names & versions
+> - `Service detection performed...` footer
