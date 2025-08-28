@@ -1,18 +1,13 @@
-# Sample Nmap Scan Output (sanitized)
+# Nmap Full Port Scan (Sample - Sanitized)
+# Command: nmap -sV -p- target-ip
 
-PORT     STATE  SERVICE
-21/tcp   open   ftp
-22/tcp   open   ssh
-23/tcp   open   telnet
-25/tcp   open   smtp
-53/tcp   open   domain
-80/tcp   open   http
-111/tcp  open   rpcbind
-139/tcp  open   netbios-ssn
-512/tcp  open   exec
-
->
-> Example headers you should see:
-> - `Host is up` line with latency
-> - A list of `open` ports with service names & versions
-> - `Service detection performed...` footer
+PORT     STATE  SERVICE   VERSION
+21/tcp   open   ftp       vsftpd 2.3.4
+22/tcp   open   ssh       OpenSSH 7.9 (protocol 2.0)
+23/tcp   open   telnet    Linux telnetd
+25/tcp   open   smtp      Postfix smtpd
+53/tcp   open   domain    ISC BIND 9.11.3
+80/tcp   open   http      Apache httpd 2.4.29 ((Ubuntu))
+111/tcp  open   rpcbind   2-4 (RPC #100000)
+139/tcp  open   netbios-ssn Samba smbd 3.X
+512/tcp  open   exec      BSD rexecd
