@@ -9,7 +9,6 @@ PORT	STATE 	SERVICE
 111/tcp	rpcbind	open
 139/tcp	netbios-ssn	open
 512/tcp	exec	open
-<img width="256" height="241" alt="image" src="https://github.com/user-attachments/assets/166755f5-c182-4e9c-8fb0-b2d353c6fbb9" />
 
 
 
