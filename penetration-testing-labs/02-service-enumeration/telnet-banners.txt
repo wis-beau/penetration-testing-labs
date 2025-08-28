@@ -1,19 +1,12 @@
-# Telnet Banner Grabs (raw)
+# Telnet Banner Grabbing (Sample - Sanitized)
+# Command: telnet target-ip <port>
 
-## FTP (21/tcp)
-$ telnet 192.168.56.102 21
-Trying 192.168.56.102...
-Connected to 192.168.56.102.
+Trying 192.168.1.100...
+Connected to target.
 Escape character is '^]'.
+
 220 (vsFTPd 2.3.4)
 
-## HTTP (80/tcp)
-$ telnet 192.168.56.102 80
-Trying 192.168.56.102...
-Connected to 192.168.56.102.
-Escape character is '^]'.
+SSH-2.0-OpenSSH_7.9p1 Debian
 
-# Type the following then press Enter twice:
-HEAD / HTTP/1.0
-
-# Expect a response with Server header (e.g., Apache/2.2.8 (Ubuntu))
+220 mail.example.com ESMTP Postfix (Debian/GNU)
