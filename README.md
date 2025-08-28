@@ -50,9 +50,9 @@ penetration-testing-labs/
 ## 🔗 Where to Look
 
 - **Scanning commands & raw outputs** → [`01-open-port-scanning/`](https://github.com/wis-beau/penetration-testing-labs/tree/main/penetration-testing-labs/01-open-port-scanning)
-- **Banner grabs & version notes** → [`02-service-enumeration/`](./02-service-enumeration)
-- **Findings & mitigations** → [`03-analysis-findings/`](./03-analysis-findings)
-- **Assignment brief + references** → [`references/`](./references)
+- **Banner grabs & version notes** → [`02-service-enumeration/`](https://github.com/wis-beau/penetration-testing-labs/blob/main/penetration-testing-labs/02-service-enumeration/README.md)
+- **Findings & mitigations** → [`03-analysis-findings/`](https://github.com/wis-beau/penetration-testing-labs/tree/main/penetration-testing-labs/03-analysis-findings)
+- **Assignment brief + references** → [`references/`](https://github.com/wis-beau/penetration-testing-labs/tree/main/penetration-testing-labs/references)
 
 ---
 
