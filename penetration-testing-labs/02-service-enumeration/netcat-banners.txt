@@ -1,10 +1,11 @@
-# Netcat Banner Grabs (raw)
+# Netcat Banner Grabbing (Sample - Sanitized)
+# Command: nc -vn target-ip <port>
 
-## FTP (21/tcp)
-$ nc -nv 192.168.56.102 21
-(UNKNOWN) [192.168.56.102] 21 (ftp) open
+Connected to target on port 21
 220 (vsFTPd 2.3.4)
 
-# Add other ports as needed, e.g., 80, 6667, 3632:
-# $ nc -nv 192.168.56.102 6667
-# :irc.Metasploitable.LAN NOTICE AUTH :*** Looking up your hostname...
+Connected to target on port 22
+SSH-2.0-OpenSSH_7.9p1 Debian
+
+Connected to target on port 25
+220 mail.example.com ESMTP Postfix (Debian/GNU)
