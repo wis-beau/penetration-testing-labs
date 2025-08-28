@@ -1,1 +1,2 @@
-vsftpd 2.3.4  (confirmed via banner: `220 (vsFTPd 2.3.4)`)
+# Extracted Service Version (Sample)
+vsftpd 2.3.4 detected
