@@ -1,18 +1,15 @@
-# Sample of Nmap Full Port + Service Scan (raw)
->PORT	STATE 	SERVICE
->21/tcp	ftp	open
->22/tcp	ssh	open
->23/tcp	telnet	open
->25/tcp	smtp	open
->53/tcp	domain	open
->80/tcp	http	open
->111/tcp	rpcbind	open
->139/tcp	netbios-ssn	open
->512/tcp	exec	open
+# Sample Nmap Scan Output (sanitized)
 
-<img width="256" height="241" alt="image" src="https://github.com/user-attachments/assets/b3fffee4-6b82-46c1-89ae-2011d928b84c" />
-
-
+PORT     STATE  SERVICE
+21/tcp   open   ftp
+22/tcp   open   ssh
+23/tcp   open   telnet
+25/tcp   open   smtp
+53/tcp   open   domain
+80/tcp   open   http
+111/tcp  open   rpcbind
+139/tcp  open   netbios-ssn
+512/tcp  open   exec
 
 >
 > Example headers you should see:
