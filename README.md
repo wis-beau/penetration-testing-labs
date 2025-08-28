@@ -49,7 +49,7 @@ penetration-testing-labs/
 
 ## 🔗 Where to Look
 
-- **Scanning commands & raw outputs** → [`01-open-port-scanning/`](./01-open-port-scanning)
+- **Scanning commands & raw outputs** → [`01-open-port-scanning/`]([./01-open-port-scanning](https://github.com/wis-beau/penetration-testing-labs/tree/main/penetration-testing-labs/01-open-port-scanning))
 - **Banner grabs & version notes** → [`02-service-enumeration/`](./02-service-enumeration)
 - **Findings & mitigations** → [`03-analysis-findings/`](./03-analysis-findings)
 - **Assignment brief + references** → [`references/`](./references)
